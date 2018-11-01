@@ -1,0 +1,10 @@
+--- configure.orig	2018-05-14 22:24:39.000000000 +0200
++++ configure	2018-10-29 13:51:12.397533294 +0100
+@@ -86,6 +86,7 @@
+     [http_rds_json => 'rds-json-nginx-module'],
+     [http_rds_csv => 'rds-csv-nginx-module'],
+     [stream_lua => 'ngx_stream_lua'],
++    [ssl_ja3 => 'nginx-ssl-ja3'],
+ );
+ 
+ my $without_resty_mods_regex;
